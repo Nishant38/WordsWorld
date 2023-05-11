@@ -74,7 +74,7 @@ export default function TextForms(props) {
             <div className="container">
                 <h2  style={{ color: props.mode === 'dark'?'white':'black'}}>Your Text Summary</h2>
                 <p  style={{ color: props.mode === 'dark'?'white':'black'}}>
-                    {text.split(" ").filter((element)=>{return element.length!==0}).length} words and {text.length} characters
+                    {text.split(/\s+/).filter((element)=>{return element.length!==0}).length} words and {text.length} characters
                 </p>
                 <h2  style={{ color: props.mode==='dark'?'white':'black'}}>Time to read</h2>
                 <p  style={{ color: props.mode==='dark'?'white':'black'}}>
