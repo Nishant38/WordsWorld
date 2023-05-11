@@ -49,8 +49,8 @@ export default function TextForms(props) {
     return (
         <div>
             <div >
-                <h1 className='mb-3' style={{ color: props.mode==='dark'?'white':'black'}}>{props.heading}</h1>
-                <div className="mb-3">
+                <h1 className='mb-3 mx-4 my-4' style={{ color: props.mode==='dark'?'white':'black'}}>{props.heading}</h1>
+                <div className="mb-3 mx-4 my-4">
                     <textarea
                         className="form-control"
                         style={{backgroundColor: props.mode==='light'? 'white':'#100322',
