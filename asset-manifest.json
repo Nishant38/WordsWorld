@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WordsWorld/static/css/main.e6c13ad2.css",
+    "main.js": "/WordsWorld/static/js/main.cf9ddf9f.js",
+    "static/js/787.0f677178.chunk.js": "/WordsWorld/static/js/787.0f677178.chunk.js",
+    "index.html": "/WordsWorld/index.html",
+    "main.e6c13ad2.css.map": "/WordsWorld/static/css/main.e6c13ad2.css.map",
+    "main.cf9ddf9f.js.map": "/WordsWorld/static/js/main.cf9ddf9f.js.map",
+    "787.0f677178.chunk.js.map": "/WordsWorld/static/js/787.0f677178.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.cf9ddf9f.js"
+  ]
+}
